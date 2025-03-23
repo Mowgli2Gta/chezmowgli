@@ -1,4 +1,4 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #ffffff;
@@ -17,7 +17,7 @@ body {
     padding-bottom: 25%;
 }
 
-body .tuto a{
+.body .tuto a{
     color: #ffffff;
 }
 
@@ -29,15 +29,15 @@ body .tuto a{
     color: red;
 }
 
-.navbar .nav-links ul{
+.navbar .nav-links .ul{
     display: flex;
 }
 
-.navbar .nav-links ul lu.active a{
+.navbar .nav-links .ul .lu.active .a{
     color: red;
 }
 
-.navbar .nav-links ul lu{
+.navbar .nav-links .ul .lu{
     margin: 0 25px;
     font-size: 20px;
 }
