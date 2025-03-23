@@ -7,6 +7,46 @@ body {
     padding: 20px;
 }
 
+.navbar{
+    position:absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 25%;
+}
+
+body .tuto a{
+    color: #ffffff;
+}
+
+.navbar a{
+    color: #ffffff;
+}
+
+.mowgli{
+    color: red;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+}
+
+.navbar .nav-links ul lu.active a{
+    color: red;
+}
+
+.navbar .nav-links ul lu{
+    margin: 0 25px;
+    font-size: 20px;
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     align-items: center;
